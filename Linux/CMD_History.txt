@@ -1,0 +1,21 @@
+it@it-lin:~$ cat > Pets
+Dog
+Cat
+Hamster
+it@it-lin:~$ cat > PackAnimals
+Horse
+Camel
+Donkey
+it@it-lin:~$ cat Pets PackAnimals > Animals
+it@it-lin:~$ cat Animals
+Dog
+Cat
+Hamster
+Horse
+Camel
+Donkey
+it@it-lin:~$ mv Animals HumanFriends
+it@it-lin:~$ mv HumanFriends new
+
+it@it-lin:~$ sudo dpkg -i mysql-server-8.0
+it@it-lin:~$ sudo dpkg -r mysql-server-8.0
